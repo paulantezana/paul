@@ -72,7 +72,7 @@
 
 __webpack_require__(1);
 
-__webpack_require__(3);
+__webpack_require__(2);
 
 /***/ }),
 /* 1 */
@@ -81,8 +81,7 @@ __webpack_require__(3);
 // removed by extract-text-webpack-plugin
 
 /***/ }),
-/* 2 */,
-/* 3 */
+/* 2 */
 /***/ (function(module, exports) {
 
 const getDistanceTop = element => {

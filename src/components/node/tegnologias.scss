@@ -1,0 +1,24 @@
+.node--type-tecnologias-que-usamos.node--view-mode-teaser{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  img{
+    max-width: 5rem;
+    max-height: 5rem;
+  }
+  h2{
+    font-size: 1rem;
+    font-weight: 400;
+    span{
+      border: 1px solid shade(grey-lighter);
+      padding: 0.2rem 1rem;
+      border-radius: 1rem;
+      display: inline-block;
+      &:hover{
+        background: color(color);
+        border: 1px solid color(color);
+        color: $white;
+      }
+    }
+  }
+}
