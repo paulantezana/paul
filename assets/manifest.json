@@ -1,0 +1,24 @@
+{
+  "short_name": "paul",
+  "name": "Paul Antezana desarrollo de aplicaciones web",
+  "icons": [{
+    "src": "/themes/custom/paul/images/icons/icon-128x128.png",
+    "type": "image/png",
+    "sizes": "128x128"
+  }, {
+    "src": "/themes/custom/paul/images/icons/ms-touch-icon.png",
+    "type": "image/png",
+    "sizes": "144x144"
+  }, {
+    "src": "/themes/custom/paul/images/icons/apple-touch-icon.png",
+    "type": "image/png",
+    "sizes": "152x152"
+  }, {
+    "src": "/themes/custom/paul/images/icons/chrome-touch-icon.png",
+    "type": "image/png",
+    "sizes": "192x192"
+  }],
+  "background_color": "#0b84f6",
+  "display": "standalone",
+  "start_url": "/"
+}

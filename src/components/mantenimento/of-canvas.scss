@@ -1,0 +1,13 @@
+.maintenance-page{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .dialog-off-canvas-main-canvas{
+    background: white;
+    border: 1px solid shade(grey-lighter);
+    border-radius: $app-radius;
+    padding: 1rem;
+    text-align: center;
+  }
+}

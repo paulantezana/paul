@@ -1,0 +1,25 @@
+$cssCore: false;
+$max-width: 1250px;
+
+@import "config/config";
+@import "~sedna/bin/sedna";
+
+@include sn-container-item();
+@include coreGrid();
+@include flexCssHelpers();
+.sn-video{
+  @include sn-video();
+}
+@include sn-form();
+
+@import "components/banner/banner";
+
+@import "components/layout/all";
+@import "components/header/header";
+@import "components/title/title";
+
+@import "components/elements/all";
+@import "components/drupal/all";
+@import "components/node/all";
+
+@import "components/mantenimento/of-canvas";

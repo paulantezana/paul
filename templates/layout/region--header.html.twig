@@ -1,0 +1,20 @@
+{#
+/**
+ * @file
+ * Theme override to display a region.
+ */
+#}
+
+{%
+    set classes = [
+        'sn-container',
+        'cross-center',
+        'main-justify'
+    ]
+%}
+
+{% if content %}
+    <div{{ attributes.addClass(classes) }}>
+        {{ content }}
+    </div>
+{% endif %}

@@ -1,0 +1,37 @@
+.main-header{
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  // form search
+  form{
+    [type="search"]{
+      //display: inline-block;
+      //background: rgba($white,.1);
+      //border: 1px solid shade(grey-lighter);
+      //outline: none;
+      //padding: .4rem .7rem;
+    }
+    [type="submit"]{display: none}
+  }
+}
+
+.site-logo__img{
+  height: 2rem;
+}
+
+.main-header{
+  @include to(l){
+    .block{
+      &:nth-child(2){
+        order: 10;
+        width: 100%;
+        padding: $gutter;
+        .input{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@import "menu";
+@import "menu-account";

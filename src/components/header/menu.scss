@@ -1,0 +1,41 @@
+$header-height: 3rem;
+@include sn-menu();
+
+.main-menu > li > a {
+  @include from(l){
+    color: $app-font-color;
+    border-radius: 1.2rem;
+    padding: 0.2rem 1.5rem;
+    &:hover{
+      background: color(color);
+      color: $white;
+    }
+  }
+}
+.main-menu{
+  justify-content: flex-end;
+  &__level{
+    background: white;
+    width: 15rem;
+    @include from(l){
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 2px 2px 6px shade(grey-lighter);
+    }
+    li{
+      &:first-child{
+        border-top: 1px solid shade(grey-lighter);
+        margin-top: 0.8rem;
+      }
+      &:last-child{
+        padding-bottom: 0.8rem;
+      }
+    }
+    a{
+      border-bottom: 1px solid shade(grey-lighter);
+      &:hover{
+        background: shade(white-bis);
+      }
+    }
+  }
+}

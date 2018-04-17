@@ -1,0 +1,19 @@
+.block-local-tasks-block{
+  ul:not(.contextual-links){
+    @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid shade(grey-lighter);
+    a{
+      padding: 0.3rem 1rem;
+      border-radius: 5px 5px 0 0;
+      &.is-active{
+        border: 1px solid shade(grey-lighter);
+        border-bottom: 1px solid $app-background;
+        position: relative;
+        top: -2px;
+      }
+    }
+  }
+}

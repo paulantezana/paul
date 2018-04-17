@@ -1,0 +1,10 @@
+# These lines define the paul/global library.
+global:
+  css:
+    # The SMACSS category, "base", is loaded before other categories. Drupal 8
+    # loads stylesheets based on the SMACSS ordering of:
+    # base, layout, component, state, theme
+    base:
+      assets/css/base.css: {}
+  js:
+    assets/js/base.js: { }

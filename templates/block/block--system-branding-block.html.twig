@@ -1,0 +1,33 @@
+
+
+{%
+    set classes = [
+        'block',
+        'sn-item',
+        'm-50',
+        'l-20',
+    ]
+%}
+<div{{ attributes.addClass(classes) }}>
+    {{ title_prefix }}
+    {% if label %}
+        <h2{{ title_attributes }}>{{ label }}</h2>
+    {% endif %}
+    {{ title_suffix }}
+    {% block content %}
+        {% if site_logo %}
+            <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-logo__link">
+                <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" class="site-logo__img"/>
+            </a>
+        {% endif %}
+        {% if site_name %}
+            <div class="site-name">
+                <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">{{ site_name }}</a>
+            </div>
+        {% endif %}
+        {% if site_slogan %}
+            <div class="site-slogan">{{ site_slogan }}</div>
+        {% endif %}
+    {% endblock %}
+</div>
+

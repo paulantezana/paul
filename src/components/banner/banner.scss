@@ -1,0 +1,49 @@
+.banner{
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+  &__title{
+    color: $app-font-color-title;
+    font-weight: 700;
+    font-size: 3.7rem;
+    line-height: 1em;
+    margin: 1.3rem 0;
+    span{
+      &:first-child{
+        color: color(color);
+      }
+      &:last-child{
+        font-weight: 300;
+        display: block;
+      }
+    }
+  }
+  &__action{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .button-primary{
+      animation: 1s callToAction linear infinite;
+      @keyframes callToAction {
+        0%{
+          box-shadow: 0 0 0 0 rgba(color(color),0),
+                      0 0 0 40px rgba(color(alert),.1),
+                      0 0 0 80px rgba(#7CBB3A,0);
+        }
+        33%{
+          box-shadow: 0 0 0 40px rgba(color(color),.1),
+                      0 0 0 80px rgba(color(alert),0),
+                      0 0 0 0 rgba(#7CBB3A,0);
+        }
+        67%{
+          box-shadow: 0 0 0 80px rgba(color(color),0),
+                      0 0 0 0 rgba(color(alert),0),
+                      0 0 0 40px rgba(#7CBB3A,.1);
+        }
+        100%{
+          box-shadow: 0 0 0 0 rgba(color(color),0),
+                      0 0 0 40px rgba(color(alert),.1),
+                      0 0 0 80px rgba(#7CBB3A,0);
+        }
+      }
+    }
+  }
+}
