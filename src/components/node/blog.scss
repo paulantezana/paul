@@ -1,0 +1,32 @@
+.node--type-blog{
+  transition: all .5s;
+  border: 1px solid shade(grey-lighter);
+  border-radius: 1rem;
+  overflow: hidden;
+  background: $white;
+  position: relative;
+  .node-teaser__meta{
+    position: absolute;
+    display: block;
+    top: 0.2rem;
+    background: rgba($black,.5);
+    color: $white;
+    font-weight: 300;
+    padding: 0.1 1rem;
+    border-radius: 5px;
+  }
+  .node-teaser__content{
+    a{
+      font-size: 0.8rem;
+    }
+  }
+  h2{
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 1em;
+    span{
+      font-weight: 400;
+      color: $app-font-color-title;
+    }
+  }
+}

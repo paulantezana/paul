@@ -317,7 +317,7 @@ template {
 body {
   margin: 0;
   font-size: 1rem;
-  background: white;
+  background: #FAFAFA;
   color: #66778B;
   font-weight: 400;
   line-height: 1.6em;
@@ -423,7 +423,7 @@ table th {
 .accordions .accordion {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #FAFAFA;
   border-radius: 3px;
   font-size: 1rem; }
   .accordions .accordion:not(:last-child) {
@@ -1096,7 +1096,7 @@ a.dropdown-item {
   padding-right: 3rem;
   white-space: nowrap; }
   a.dropdown-item:hover {
-    background-color: white;
+    background-color: #FAFAFA;
     color: #0a0a0a; }
   a.dropdown-item.is-active {
     background-color: #3273dc;
@@ -1206,7 +1206,7 @@ a.dropdown-item {
     max-height: 999px; } }
 
 .message {
-  background-color: white;
+  background-color: #FAFAFA;
   border-radius: 3px;
   font-size: 1rem; }
   .message:not(:last-child) {
@@ -1433,7 +1433,7 @@ a.dropdown-item {
 .modal-card-head,
 .modal-card-foot {
   align-items: center;
-  background-color: white;
+  background-color: #FAFAFA;
   display: flex;
   flex-shrink: 0;
   justify-content: flex-start;
@@ -2001,7 +2001,7 @@ a.dropdown-item {
     border: 1px solid transparent;
     border-radius: 3px 3px 0 0; }
     .tabs.is-boxed a:hover {
-      background-color: white;
+      background-color: #FAFAFA;
       border-bottom-color: #dbdbdb; }
   .tabs.is-boxed li.is-active a {
     background-color: white;
@@ -2015,7 +2015,7 @@ a.dropdown-item {
     margin-bottom: 0;
     position: relative; }
     .tabs.is-toggle a:hover {
-      background-color: white;
+      background-color: #FAFAFA;
       border-color: #b5b5b5;
       z-index: 2; }
   .tabs.is-toggle li + li {
@@ -2466,10 +2466,10 @@ a.box:active {
     color: #66778B;
     text-decoration: underline; }
     .button.is-text:hover, .button.is-text.is-hovered, .button.is-text:focus, .button.is-text.is-focused {
-      background-color: white;
+      background-color: #FAFAFA;
       color: #363636; }
     .button.is-text:active, .button.is-text.is-active {
-      background-color: #f2f2f2;
+      background-color: #ededed;
       color: #363636; }
     .button.is-text[disabled] {
       background-color: transparent;
@@ -2783,7 +2783,7 @@ a.box:active {
   margin-bottom: 1em; }
 
 .content blockquote {
-  background-color: white;
+  background-color: #FAFAFA;
   border-left: 5px solid #dbdbdb;
   padding: 1.25em 1.5em; }
 
@@ -2841,7 +2841,7 @@ a.box:active {
     color: #363636;
     text-align: left; }
   .content table tr:hover {
-    background-color: white; }
+    background-color: #FAFAFA; }
   .content table thead td,
   .content table thead th {
     border-width: 0 0 2px;
@@ -2910,8 +2910,8 @@ a.box:active {
     box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
   .input[disabled],
   .textarea[disabled] {
-    background-color: white;
-    border-color: white;
+    background-color: #FAFAFA;
+    border-color: #FAFAFA;
     box-shadow: none;
     color: #7a7a7a; }
     .input[disabled]::-moz-placeholder,
@@ -3114,8 +3114,8 @@ a.box:active {
       border-color: #3273dc;
       box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
     .select select[disabled] {
-      background-color: white;
-      border-color: white;
+      background-color: #FAFAFA;
+      border-color: #FAFAFA;
       box-shadow: none;
       color: #7a7a7a; }
       .select select[disabled]::-moz-placeholder {
@@ -3129,7 +3129,7 @@ a.box:active {
     .select select::-ms-expand {
       display: none; }
     .select select[disabled]:hover {
-      border-color: white; }
+      border-color: #FAFAFA; }
     .select select:not([multiple]) {
       padding-right: 2.5em; }
     .select select[multiple] {
@@ -3696,7 +3696,7 @@ a.box:active {
     width: 3rem; }
 
 .notification {
-  background-color: white;
+  background-color: #FAFAFA;
   border-radius: 3px;
   padding: 1.25rem 2.5rem 1.25rem 1.5rem;
   position: relative; }
@@ -5325,8 +5325,8 @@ a.tag:hover {
     box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
   .input[disabled],
   .textarea[disabled] {
-    background-color: white;
-    border-color: white;
+    background-color: #FAFAFA;
+    border-color: #FAFAFA;
     box-shadow: none;
     color: #7a7a7a; }
     .input[disabled]::-moz-placeholder,
@@ -5529,8 +5529,8 @@ a.tag:hover {
       border-color: #3273dc;
       box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25); }
     .select select[disabled] {
-      background-color: white;
-      border-color: white;
+      background-color: #FAFAFA;
+      border-color: #FAFAFA;
       box-shadow: none;
       color: #7a7a7a; }
       .select select[disabled]::-moz-placeholder {
@@ -5544,7 +5544,7 @@ a.tag:hover {
     .select select::-ms-expand {
       display: none; }
     .select select[disabled]:hover {
-      border-color: white; }
+      border-color: #FAFAFA; }
     .select select:not([multiple]) {
       padding-right: 2.5em; }
     .select select[multiple] {
@@ -6069,7 +6069,7 @@ a.tag:hover {
 
 .banner {
   padding-top: 5rem;
-  padding-bottom: 7rem; }
+  padding-bottom: 2rem; }
   .banner__title {
     color: #2C3847;
     font-weight: 700;
@@ -6133,21 +6133,13 @@ a.tag:hover {
   grid-template-columns: repeat(10, 1fr); }
 
 .main-header {
-  padding-top: 1.8rem;
-  padding-bottom: 1.8rem; }
-  .main-header form [type="submit"] {
-    display: none; }
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid #dbdbdb;
+  background: white; }
 
 .site-logo__img {
   height: 2rem; }
-
-@media screen and (max-width: 1023px) {
-  .main-header .block:nth-child(2) {
-    order: 10;
-    width: 100%;
-    padding: 0.9em; }
-    .main-header .block:nth-child(2) .input {
-      width: 100%; } }
 
 @media print {
   .main-menu {
@@ -6245,34 +6237,16 @@ a.tag:hover {
   .main-menu-nav--show .main-menu {
     max-height: 999px; } }
 
-@media screen and (min-width: 1024px) {
-  .main-menu > li > a {
-    color: #66778B;
-    border-radius: 1.2rem;
-    padding: 0.2rem 1.5rem; }
-    .main-menu > li > a:hover {
-      background: #0F8DFB;
-      color: white; } }
-
-.main-menu {
-  justify-content: flex-end; }
-  .main-menu__level {
-    background: white;
-    width: 15rem; }
-    @media screen and (min-width: 1024px) {
-      .main-menu__level {
-        border-radius: 5px;
-        overflow: hidden;
-        box-shadow: 2px 2px 6px #dbdbdb; } }
-    .main-menu__level li:first-child {
-      border-top: 1px solid #dbdbdb;
-      margin-top: 0.8rem; }
-    .main-menu__level li:last-child {
-      padding-bottom: 0.8rem; }
-    .main-menu__level a {
-      border-bottom: 1px solid #dbdbdb; }
-      .main-menu__level a:hover {
-        background: #fafafa; }
+.main-menu > li > a {
+  font-weight: 400; }
+  @media screen and (min-width: 1024px) {
+    .main-menu > li > a {
+      color: #66778B;
+      border-radius: 1rem;
+      padding: 0 1rem; }
+      .main-menu > li > a:hover {
+        background: #0F8DFB;
+        color: white; } }
 
 .menu-account {
   display: flex; }
@@ -6311,28 +6285,6 @@ a.tag:hover {
 .button-white:hover {
   background: whitesmoke; }
 
-.theme-style {
-  position: fixed;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: .5rem;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: .5rem;
-  background: #dbdbdb;
-  border-radius: .5rem 0 0 .5rem;
-  border: 1px solid #b5b5b5; }
-  .theme-style__item {
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 100%;
-    cursor: pointer; }
-    .theme-style__item:first-child {
-      background: #0a0a0a; }
-    .theme-style__item:last-child {
-      background: white; }
-
 .block-local-tasks-block ul:not(.contextual-links) {
   display: flex;
   flex-wrap: wrap;
@@ -6343,7 +6295,7 @@ a.tag:hover {
     border-radius: 5px 5px 0 0; }
     .block-local-tasks-block ul:not(.contextual-links) a.is-active {
       border: 1px solid #dbdbdb;
-      border-bottom: 1px solid white;
+      border-bottom: 1px solid #FAFAFA;
       position: relative;
       top: -2px; }
 
@@ -6396,10 +6348,43 @@ a.tag:hover {
         border: 1px solid #0F8DFB;
         color: white; }
 
+.node--type-blog {
+  transition: all .5s;
+  border: 1px solid #dbdbdb;
+  border-radius: 1rem;
+  overflow: hidden;
+  background: white;
+  position: relative; }
+  .node--type-blog .node-teaser__meta {
+    position: absolute;
+    display: block;
+    top: 0.2rem;
+    background: rgba(10, 10, 10, 0.5);
+    color: white;
+    font-weight: 300;
+    padding: 0.1 1rem;
+    border-radius: 5px; }
+  .node--type-blog .node-teaser__content a {
+    font-size: 0.8rem; }
+  .node--type-blog h2 {
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 1em; }
+    .node--type-blog h2 span {
+      font-weight: 400;
+      color: #2C3847; }
+
 .teaser__title {
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 3rem; }
+
+.block-views {
+  margin-top: 5em;
+  margin-bottom: 5rem; }
+  .block-views > h2 {
+    text-align: center;
+    margin-bottom: 3rem; }
 
 .maintenance-page {
   min-height: 100vh;
